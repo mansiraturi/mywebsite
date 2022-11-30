@@ -1,0 +1,47 @@
+.container{
+    padding: 1.5rem;
+}
+
+.resume_section{
+    background-color: black;
+    text-align: center;
+    
+}
+p.resume_title{
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: 1.2;    
+    font-family: 'Montserrat',sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #424a6b;
+}
+p.resume_text{
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: 1.2;    
+    font-family: 'Montserrat',sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white
+}
+.btn {
+    transition: all .5s ease;
+    color: white;    
+    font-style: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 20px;
+    padding: 15px;
+    outline: none;
+    border-radius: 4px;
+    
+    background-color: #424a6b;
+    /* background-image: linear-gradient(90deg, #424a6b, #262535 ); */
+}
+a{
+    font-style: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}

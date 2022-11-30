@@ -1,0 +1,28 @@
+.container{
+    padding: 1.5rem;
+}
+
+.footer_connect{
+    background-image: linear-gradient(90deg, #424a6b, #262535 );
+    text-align: center;
+    
+}
+p.footer_text{
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: 1.2;    
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
+    color: white;
+}
+.icon{
+    color: aliceblue;
+}
+a{
+    padding: 20px;
+}
+p.info{
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+}

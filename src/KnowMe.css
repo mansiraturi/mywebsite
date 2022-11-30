@@ -1,0 +1,71 @@
+#KnowMe{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(talent.jpg);
+    background-position: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1.heading{
+    font-size: 50px;
+    text-align: center;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p.heading.p__color{
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.service__box{
+    border-radius: 10px;
+    width: 100%;
+    background-color: #191919;
+    padding: 40px;
+    transition: .4s ease;
+}
+.col_2{
+    width: 36%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.service__box:hover{
+    transform: translate(5px);
+    background-image: linear-gradient(90deg, #424a6b, #262535 );
+}
+
+li{
+    list-style: none;
+}
+li.resp{
+    display: none;
+}
+
+.float_left{float:left;}
+    .float_right{float:right;}
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 1250px){
+    .service__box{
+        padding: 32px;
+        padding-right: 13%;
+    }
+
+    .float_left{
+        display: none;
+    }
+    .float_right{
+        display: none;
+    }
+
+    li.resp{
+        display: block;
+    }
+    
+}
